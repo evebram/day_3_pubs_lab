@@ -29,4 +29,12 @@ def count_drinks()
   @drinks.size
 end
 
+def customer_legal_age(age)
+  return  age >= 18
+end
+
+def drinking_limit(customer)
+  return customer <= 5
+end
+
 end
